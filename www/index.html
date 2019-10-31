@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">ESTACIONAMENTO</h1>
+      <div class="wrap">
+      <div class="select">
+					<select class="select-text" required>
+						<option value="" disabled selected></option>
+						<option value="1">CARRO</option>
+						<option value="2">MOTO</option>
+					</select>
+					<span class="select-highlight"></span>
+					<span class="select-bar"></span>
+					<label class="select-label">TIPO DE VEICULO</label>
+			</div>
+      <div class="inputRegister">
+      <input type="text" placeholder="NOME PROPRIETARIO">
+      <input type="text" placeholder="MARCA VEICULO">
+      <input type="text" placeholder="MODELO VEICULO">
+      <input type="text" placeholder="PLACA VEICULO">
+      <h1>Hora de Entrada</h1>
+      <input type="time">
+      </div>
+      <button class="btnSalvar"><img class="saveIcon" src="img/save.svg" alt=""></button>
+    </div>
+    </div>
+</body>
+</html>
